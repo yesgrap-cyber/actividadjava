@@ -1,9 +1,9 @@
-let saludo = document.getElementById("saludo")
+const saludo = document.getElementById("saludo")
 const boton = document.getElementById("boton")
 function saludar() {
-    let nombre = document.getElementById("nombre").value
+    const nombre = document.getElementById("nombre").value
     console.log(nombre);
-    resultado = 'Hola ' + nombre + ' Buenas noches'
+    const resultado = 'Hola ' + nombre + ' Buenas noches'
     saludo.innerText = resultado
     
 }
