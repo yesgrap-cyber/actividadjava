@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contador de clics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+
 </head>
-<body>
-    <p id="contador">0</p>
-    <button id="sumar">Sumar</button>
-    <button id="reiniciar">Reiniciar</button>
-    
+
+<body style="background-color: #ccc;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4 mt-5">
+                <div class="card body">
+                    <div class="card">
+                        <p id="contador">0</p>
+                        <button class="btn btn-primary" id="sumar">Sumar</button>
+                        <button class="btn btn-success" id="reiniciar">Reiniciar</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
 
 
-<script src="app.js"></script>
+
+    <script src="app.js"></script>
 </body>
+
 </html>
