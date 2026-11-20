@@ -2,6 +2,7 @@ const colorcarta = document.getElementById("carta");
 const selecolor = document.getElementById("colores");
 
 selecolor.addEventListener("change", function(){
+    
     if(selecolor.value === "primary"){
         colorcarta.style.backgroundColor = "blue"
         colorcarta.style.color = "white"
