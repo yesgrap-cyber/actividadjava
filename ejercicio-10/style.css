@@ -1,0 +1,21 @@
+.semaforo {
+  width: 120px;
+  padding: 16px;
+  background-color: #222;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.luz {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background-color: #555; 
+  transition: background-color 0.3s;
+}
+
+#luzRoja.encendida     { background-color: #ff2d2d; box-shadow: 0 0 20px #ff2d2d; }
+#luzAmarilla.encendida { background-color: #ffd400; box-shadow: 0 0 20px #ffd400; }
+#luzVerde.encendida    { background-color: #2dff4a; box-shadow: 0 0 20px #2dff4a; }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro con validacion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #ccc; ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 mt-5 text-center">
+                <div class="card">
+                    <div class="card-body">
+                        <form id="formulario" novalidate>
+                            <div>
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="nombre">
+                                <p class="error" id="error-nombre"></p>
+                            </div>
+                            <div>
+                                <label for="correo">Correo</label>
+                                <input type="email" id="correo">
+                                <p class="error" id="error-correo"></p>
+                            </div>
+                            <div>
+                                <label for="edad">Edad</label>
+                                <input type="number" id="edad">
+                                <p class="error" id="error-edad"></p>
+                            </div>
+                            <button type="submit">Registrarme</button>
+                            <p id="mensaje-exito"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
